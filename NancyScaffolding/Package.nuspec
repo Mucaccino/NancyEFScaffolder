@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NancyScaffolding</id>
+    <version>0.0.1</version>
+    <authors>Warren Butt</authors>
+    <owners>GopherbotStudio</owners>
+    <projectUrl>http://www.eyecatch.no/projects/autoloadservicehostfactory/</projectUrl>
+    <iconUrl>http://www.eyecatch.no/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Nancy Scaffolding framework
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <copyright>Copyright EyeCatch 2012</copyright>
+    <tags></tags>
+    <dependencies>
+      <dependency id="log4net" version="1.2.10" />
+      <dependency id="WebActivator" version="1.5" />
+      <dependency id="WebApi.All" version="0.6.0" />
+      <dependency id="TFScaffolding" version="1.0.8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\**" target="lib" />
+    <file src="tools\**" target="tools" />
+    <file src="content\**" target="content" />
+  </files>
+</package>
